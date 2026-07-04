@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Dashboard 🐱</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>Personal Dashboard 🐱</h1>
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </header>
+
+    <div id="storage-warning" hidden>
+      ⚠️ localStorage is unavailable. Your data will not be saved.
+    </div>
+
+    <main class="dashboard-grid">
+
+      <section class="widget" id="widget-greeting">
+        <h3>Greeting &amp; Clock</h3>
+      </section>
+
+      <section class="widget" id="widget-timer">
+        <h3>Focus Timer</h3>
+      </section>
+
+      <section class="widget" id="widget-todo">
+        <h3>To-Do List</h3>
+      </section>
+
+      <section class="widget" id="widget-quicklinks">
+        <h3>Quick Links</h3>
+      </section>
+
+    </main>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
